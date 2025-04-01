@@ -1,16 +1,23 @@
+/* Général */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f8f8f8;
     color: #333;
+    text-align: center;
 }
 
+/* Navigation */
 header {
-    background-color: #ff8c00;
-    padding: 15px;
+    background: #ffafcc;
+    padding: 20px;
     text-align: center;
+}
+
+header h1 {
     color: white;
+    margin: 0;
 }
 
 nav ul {
@@ -26,47 +33,72 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
+/* Hero Section */
 .hero {
-    text-align: center;
-    padding: 50px;
-    background-color: #ffe4b5;
+    background: #ffcad4;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 2em;
 }
 
 .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff8c00;
+    background: #ff7096;
     color: white;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
-.produits {
+.btn:hover {
+    background: #ff5774;
+}
+
+/* Sections */
+.about, .shop, .contact {
+    padding: 50px 20px;
+}
+
+/* Produits */
+.product-grid {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
 }
 
-.produit {
+.product {
     background: white;
-    padding: 15px;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.produit img {
-    max-width: 100px;
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
 }
 
-.ajouter-panier {
-    background-color: #ff8c00;
+.product button {
+    background: #ff7096;
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
-    margin-top: 10px;
+}
+
+.product button:hover {
+    background: #ff5774;
+}
+
+/* Footer */
+footer {
+    background: #ffafcc;
+    padding: 20px;
+    color: white;
 }
