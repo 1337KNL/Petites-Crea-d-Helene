@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petites Créa d'Hélène</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Petites Créa d'Hélène</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Boutique</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Panier 🛒</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Bienvenue dans ma boutique !</h2>
+        <p>Découvrez mes créations artisanales uniques.</p>
+        <a href="#" class="btn">Voir la boutique</a>
+    </section>
+
+    <section class="produits">
+        <h2>Nos créations</h2>
+        <div class="produit">
+            <img src="images/produit1.jpg" alt="Produit 1">
+            <h3>Produit 1</h3>
+            <p>Prix: 20€</p>
+            <button class="ajouter-panier">Ajouter au panier</button>
+        </div>
+        <div class="produit">
+            <img src="images/produit2.jpg" alt="Produit 2">
+            <h3>Produit 2</h3>
+            <p>Prix: 25€</p>
+            <button class="ajouter-panier">Ajouter au panier</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Petites Créa d'Hélène - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
