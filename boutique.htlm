@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique - Petites Créa d’Hélène</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Petites Créa d’Hélène</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="shop" class="shop">
+        <h2>Nos Produits</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/produit1.jpg" alt="Collier fait main">
+                <h3>Collier artisanal</h3>
+                <p>20€</p>
+                <button>Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="images/produit2.jpg" alt="Bracelet en perles">
+                <h3>Bracelet en perles</h3>
+                <p>15€</p>
+                <button>Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="images/produit3.jpg" alt="Boucles d'oreilles">
+                <h3>Boucles d'oreilles artisanales</h3>
+                <p>25€</p>
+                <button>Ajouter au panier</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Petites Créa d’Hélène - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
